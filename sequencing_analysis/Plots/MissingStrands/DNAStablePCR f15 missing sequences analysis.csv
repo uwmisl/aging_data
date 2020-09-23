@@ -1,0 +1,16 @@
+Temperature and Time Point,Total Percent Missing,Percent Missing that Reappear,Percent that Stay Missing
+65C: TP0,2.211,0.0,2.211
+TP1,2.211,100.0,0.0
+TP2,nan,nan,nan
+TP3,nan,nan,nan
+TP4,nan,nan,nan
+75C: TP0,2.211,0.0,2.211
+TP1,2.197,100.0,0.0
+TP2,nan,nan,nan
+TP3,nan,nan,nan
+TP4,nan,nan,nan
+85C: TP0,2.211,0.0,2.211
+TP1,2.197,100.0,0.0
+TP2,nan,nan,nan
+TP3,nan,nan,nan
+TP4,nan,nan,nan

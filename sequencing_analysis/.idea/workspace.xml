@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a40c44e-d9e4-4386-b95d-d5573463dd52" name="Default" comment="Working on creating CSV file to show lack of &#10;randomness in strand degradation">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/DNAStable + PCR Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/DNAStable Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/Filter Paper Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/GenTegra Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/Imagene Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/Mag-Bind + DNAStable Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/No Additives Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/Sugar Mix Sequences Missing over Time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prcnt_0_analysis_images/Trehalose Sequences Missing over Time.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/aging_sequencing_analysis.iml" afterPath="$PROJECT_DIR$/.idea/aging_sequencing_analysis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/prcnt_0_plots_and_other_metrics-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/prcnt_0_plots_and_other_metrics-checkpoint.ipynb" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sequence_degradation_tables.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="giant_generate_zoomed_in_rates_subplots.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giant_generate_zoomed_in_rates_subplots.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3045">
+              <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf_to_csv_coverage_extraction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="missing_strands_analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="135" column="73" lean-forward="false" selection-start-line="135" selection-start-column="73" selection-end-line="135" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="missing_strands_to_pickle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3mer_analysis/missing_strands_to_pickle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Percentage</find>
+      <find>ax</find>
+      <find>fig</find>
+      <find>pickled_coverage_data</find>
+      <find>Imagene</find>
+      <find>anti</find>
+      <find>pickled_</find>
+      <find>pickled_c</find>
+      <find>desired</find>
+      <find>plt.sav</find>
+      <find>cool</find>
+      <find>invert</find>
+      <find>cmap</find>
+      <find>insertion_rate</find>
+      <find>subsa</find>
+      <find>reappear</find>
+      <find>missing_strands</find>
+      <find>.png</find>
+      <find>Substitution Average</find>
+      <find>Subs</find>
+      <find>svg</find>
+      <find>Insertion</find>
+      <find>Deletion</find>
+      <find>strand</find>
+      <find>plt</find>
+      <find>datadict</find>
+      <find>reappear_missing</find>
+      <find>file_type</find>
+      <find>total_missing</find>
+      <find>missing_dict</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sub</replace>
+      <replace>5</replace>
+      <replace>_</replace>
+      <replace>all_conditions_dict</replace>
+      <replace>mean_conditions_id8</replace>
+      <replace>std_dev_conditions_id8</replace>
+      <replace>file_conditions[a][c])</replace>
+      <replace>BeadsDNAStable</replace>
+      <replace>GenTegra</replace>
+      <replace>75</replace>
+      <replace>pickle_file_2</replace>
+      <replace>strand_ratio_low</replace>
+      <replace>'GC:AT'</replace>
+      <replace>alpha=0.8</replace>
+      <replace>markersize=5</replace>
+      <replace>markersize=15</replace>
+      <replace>file_name</replace>
+      <replace>['Substitution Rate']</replace>
+      <replace>Average</replace>
+      <replace>['Substitution Average']</replace>
+      <replace>alpha=0.9</replace>
+      <replace>color=colors[z]</replace>
+      <replace>Percent</replace>
+      <replace>subsampled_pickled_coverage_data</replace>
+      <replace>deletion_rate</replace>
+      <replace>Deletion Average</replace>
+      <replace>Insertion</replace>
+      <replace>Deletion</replace>
+      <replace>Substitution</replace>
+      <replace>sequence</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pdf_to_csv_error_analysis_extraction.py" />
+        <option value="$PROJECT_DIR$/runTest1_analyzed.csv" />
+        <option value="$PROJECT_DIR$/H10_PCRDNAStable_85_Run_60-report.txt" />
+        <option value="$PROJECT_DIR$/pdf_to_csv_error_analysis.py" />
+        <option value="$PROJECT_DIR$/pdf_to_csv_error_analysis_alternative.py" />
+        <option value="$PROJECT_DIR$/Plots/generate_bar_plot.py" />
+        <option value="$PROJECT_DIR$/generate_bar_plot_by_condition_temp.py" />
+        <option value="$PROJECT_DIR$/generate_bar_plot.py" />
+        <option value="$PROJECT_DIR$/venv/gc_content.py" />
+        <option value="$PROJECT_DIR$/gc_content.py" />
+        <option value="$PROJECT_DIR$/master_error_analysis_for_pickle.csv" />
+        <option value="$PROJECT_DIR$/error_analysis_to_pickle.py" />
+        <option value="$PROJECT_DIR$/3mer_analysis/gc_content_tables.py" />
+        <option value="$PROJECT_DIR$/3mer_analysis/3mer_frequency_to_pickle.py" />
+        <option value="$PROJECT_DIR$/subsampled_data/complexity_subsampling_script_cp.py" />
+        <option value="$PROJECT_DIR$/3mer_analysis/3mer_frequency_percent_significant.py" />
+        <option value="$PROJECT_DIR$/3mer_analysis/3mer_analysis_without_primer.py" />
+        <option value="$PROJECT_DIR$/subsampled_data/coverage_threshold_subsampling_script.py" />
+        <option value="$PROJECT_DIR$/3mer_analysis/3mer_analysis_tables.py" />
+        <option value="$PROJECT_DIR$/giant_generate_insertion_rates_subplots.py" />
+        <option value="$PROJECT_DIR$/giant_generate_deletion_rates_subplots.py" />
+        <option value="$PROJECT_DIR$/giant_generate_substitution_rates_subplots.py" />
+        <option value="$PROJECT_DIR$/generate_rates_subplots.py" />
+        <option value="$PROJECT_DIR$/coverage_threshold/determine_coverage_threshold_plots.py" />
+        <option value="$PROJECT_DIR$/coverage_threshold/justify_coverage_threshold_plots.py" />
+        <option value="$PROJECT_DIR$/giant_generate_rates_subplots.py" />
+        <option value="$PROJECT_DIR$/giant_generate_zoomed_in_rates_subplots.py" />
+        <option value="$PROJECT_DIR$/venn_diagrams.py" />
+        <option value="$PROJECT_DIR$/venn_diagrams_old.py" />
+        <option value="$PROJECT_DIR$/venn_diagrams_triplicates.py" />
+        <option value="$PROJECT_DIR$/sequence_degradation_tables.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
+        <option value="$PROJECT_DIR$/3mer_analysis/missing_strands_to_pickle.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/3mer_analysis/missing_strands_to_pickle_tp0_normal.py" />
+        <option value="$PROJECT_DIR$/scratch.py" />
+        <option value="$PROJECT_DIR$/missing_strands_analysis_csv.py" />
+        <option value="$PROJECT_DIR$/missing_strands_analysis.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-382" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aging_sequencing_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aging_sequencing_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aging_sequencing_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aging_sequencing_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="Plots" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rachel\PycharmProjects\aging_sequencing_analysis" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rachel\PycharmProjects\aging_sequencing_analysis\runTest1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.scratch_4">
+    <configuration name="3mer_analysis_tables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3mer_analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aging_sequencing_analysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3mer_analysis/3mer_analysis_tables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="coverage_threshold_subsampling_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/subsampled_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aging_sequencing_analysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subsampled_data/coverage_threshold_subsampling_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="generate_rates_subplots" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aging_sequencing_analysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_rates_subplots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="scratch_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="aging_sequencing_analysis" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.3mer_analysis_tables" />
+      <item index="1" class="java.lang.String" itemvalue="Python.coverage_threshold_subsampling_script" />
+      <item index="2" class="java.lang.String" itemvalue="Python.generate_rates_subplots" />
+      <item index="3" class="java.lang.String" itemvalue="Python.scratch_4" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.scratch_4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Rachel\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a40c44e-d9e4-4386-b95d-d5573463dd52" name="Default" comment="" />
+      <created>1557164788053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557164788053</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Made 9 subplots much prettier. Need to do it to rest of&#10;conditions and giant subplot as well.">
+      <created>1564590232458</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1564590232458</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Updated all 9 subplot tables, updated README">
+      <created>1564613679007</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1564613679008</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Counting patterns that were significant vs not &#10;significant">
+      <created>1564691260526</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1564691260527</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Updating resolution for subplots and heat maps">
+      <created>1564707488993</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1564707489008</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Updating subplots so that ticks are on every plot but&#10;labels are not">
+      <created>1565391457758</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1565391457758</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Made percent significant tables, though visually&#10;unappealing">
+      <created>1565399199224</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1565399199224</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Starting to create a script that plots average coverage&#10;vs total percent missing">
+      <created>1569778137596</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1569778137596</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Preliminary exploration on coverage threshold with a&#10;simple plot">
+      <created>1569869826951</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1569869826951</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Plotting all TP0 files on a logarithmic y-axis">
+      <created>1570475546927</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1570475546927</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Writing my own coverage threshold script using some&#10;methods from the script from Lee's previous project">
+      <created>1570591561095</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1570591561095</updated>
+    </task>
+    <task id="LOCAL-00096" summary="First subsampled pickle file created. It takes a long&#10;time and I need to try to find out how to speed it up">
+      <created>1570647160565</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1570647160565</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Trying to create a threading to run on MISL servers">
+      <created>1570722668728</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1570722668729</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Adding preliminary subsampled pickles">
+      <created>1570722695213</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1570722695214</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Trying to change file paths to use for MISL servers">
+      <created>1570723133720</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1570723133720</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Trying to change file paths to use for MISL servers">
+      <created>1570729014588</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1570729014588</updated>
+    </task>
+    <task id="LOCAL-00101" summary="I think I got the correct file paths">
+      <created>1570730091700</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1570730091700</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Got threading methods to work">
+      <created>1570841214676</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1570841214676</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Looping through 100 times and more efficient file count&#10;led to getting subsampled files in &lt;80 min. Used &#10;threshold of 15 though may need to change this">
+      <created>1570850990492</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1570850990492</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Debugged and checked that f8 subsampled coverages&#10;make sense">
+      <created>1570851678030</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1570851678030</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Trying out different design for plots (only did&#10;BeadsDNAStable to test it out)">
+      <created>1571794187983</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1571794187983</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Determined coverage threshold to be 14">
+      <created>1571795035061</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1571795035061</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Added new plot with seaborn style to compare styles">
+      <created>1571795067035</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1571795067035</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Trying to use as many servers as I can when no one else&#10;using them (higher threading)">
+      <created>1571796016537</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1571796016538</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Trying to use as many servers as I can when no one else&#10;using them (higher threading)">
+      <created>1571796115216</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1571796115216</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Made subplots prettier and included coverage thresholds,&#10;overlaying two avg coverage percent missing plots">
+      <created>1571847851805</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1571847851805</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Made seaborn style for all plots and made a zoomed in&#10;substitution rate for all conditions plot">
+      <created>1572498336283</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1572498336283</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Have to redo log scale for coverage vs percentage">
+      <created>1572500085575</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1572500085575</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Fixing up plots for subsampling, coverage threshold,&#10;appearance">
+      <created>1572544018232</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1572544018232</updated>
+    </task>
+    <task id="LOCAL-00114" summary="New coverage of 14 to subsample at">
+      <created>1572554573775</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1572554573775</updated>
+    </task>
+    <task id="LOCAL-00115" summary="New coverage of 14 to subsample at">
+      <created>1572890153034</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1572890153049</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Adjusting threads to higher to run on MISL servers in&#10;off hours">
+      <created>1572890293687</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1572890293687</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Adjusting threads to higher to run on MISL servers in&#10;off hours">
+      <created>1572920678853</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1572920678853</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Subsampling larger files on servers">
+      <created>1572922040524</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1572922040526</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Never mind">
+      <created>1572922069593</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1572922069593</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Never mind">
+      <created>1572922118802</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1572922118802</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Trying to figure out colorbar">
+      <created>1573147621335</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1573147621336</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Finally figured out how to custom make a colormap">
+      <created>1573535106394</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1573535106394</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Trying to justify with plots why files below coverage&#10;threshold should be excluded">
+      <created>1573584756694</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1573584756694</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Made 3mer analysis heat map labels more readable">
+      <created>1574280147047</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1574280147047</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Labeled trimer analysis heat maps as subsampled">
+      <created>1574641210510</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1574641210510</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Checked missing strands tables, made all needed plots&#10;into svg's">
+      <created>1575174108855</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1575174108856</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Created plots with and without legend">
+      <created>1575247880744</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1575247880744</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Starting venn script">
+      <created>1576104978758</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1576104978758</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Half of logic down for venn script">
+      <created>1576106816976</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1576106816976</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Preliminary venn plots, confused why there is so much &#10;overlap between missing sequences so I'm going to check&#10;the script">
+      <created>1576273409476</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1576273409478</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Venns for TP4. Lots of overlap in sets, surprising.">
+      <created>1576274818165</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1576274818165</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Table to show overlap/lack thereof of missing &#10;sequences between triplicates">
+      <created>1576277369799</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1576277369800</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Trying to write triplicate degradation tables to &#10;CSV file">
+      <created>1576286589753</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1576286589753</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Working on creating CSV file to show lack of &#10;randomness in strand degradation">
+      <created>1576360130991</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1576360130991</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-382" y="-1080" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1943557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45580932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27904668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Determined coverage threshold to be 14" />
+    <MESSAGE value="Added new plot with seaborn style to compare styles" />
+    <MESSAGE value="Trying to use as many servers as I can when no one else&#10;using them (higher threading)" />
+    <MESSAGE value="Made subplots prettier and included coverage thresholds,&#10;overlaying two avg coverage percent missing plots" />
+    <MESSAGE value="Made seaborn style for all plots and made a zoomed in&#10;substitution rate for all conditions plot" />
+    <MESSAGE value="Have to redo log scale for coverage vs percentage" />
+    <MESSAGE value="Fixing up plots for subsampling, coverage threshold,&#10;appearance" />
+    <MESSAGE value="New coverage of 14 to subsample at" />
+    <MESSAGE value="Adjusting threads to higher to run on MISL servers in&#10;off hours" />
+    <MESSAGE value="Subsampling larger files on servers" />
+    <MESSAGE value="Never mind" />
+    <MESSAGE value="Trying to figure out colorbar" />
+    <MESSAGE value="Finally figured out how to custom make a colormap" />
+    <MESSAGE value="Trying to justify with plots why files below coverage&#10;threshold should be excluded" />
+    <MESSAGE value="Made 3mer analysis heat map labels more readable" />
+    <MESSAGE value="Labeled trimer analysis heat maps as subsampled" />
+    <MESSAGE value="Checked missing strands tables, made all needed plots&#10;into svg's" />
+    <MESSAGE value="Created plots with and without legend" />
+    <MESSAGE value="Starting venn script" />
+    <MESSAGE value="Half of logic down for venn script" />
+    <MESSAGE value="Preliminary venn plots, confused why there is so much &#10;overlap between missing sequences so I'm going to check&#10;the script" />
+    <MESSAGE value="Venns for TP4. Lots of overlap in sets, surprising." />
+    <MESSAGE value="Table to show overlap/lack thereof of missing &#10;sequences between triplicates" />
+    <MESSAGE value="Trying to write triplicate degradation tables to &#10;CSV file" />
+    <MESSAGE value="Working on creating CSV file to show lack of &#10;randomness in strand degradation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on creating CSV file to show lack of &#10;randomness in strand degradation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sequence_degradation_tables.py</url>
+          <line>28</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giant_generate_zoomed_in_rates_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3mer_analysis/missing_strands_to_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giant_generate_zoomed_in_rates_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="46" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.py" />
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giant_generate_zoomed_in_rates_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="46" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.py" />
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="22" lean-forward="true" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giant_generate_zoomed_in_rates_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="88" column="28" lean-forward="false" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venn_diagrams_old.py" />
+    <entry file="file://$PROJECT_DIR$/giant_generate_rates_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="208" column="12" lean-forward="false" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plots/VennTriplicates/Venn_DNAStable_65f8.svg" />
+    <entry file="file://$PROJECT_DIR$/Plots/VennTriplicates/Venn_DNAStable_75f15.svg" />
+    <entry file="file://$PROJECT_DIR$/Plots/VennTriplicates/VennSugars65f15.svg" />
+    <entry file="file://$PROJECT_DIR$/Plots/VennTriplicates/VennSugars65f8.svg" />
+    <entry file="file://$PROJECT_DIR$/Plots/VennTriplicates/VennGenTegra65f15.svg" />
+    <entry file="file://$PROJECT_DIR$/Plots/VennTriplicates/VennGenTegra65f8.svg" />
+    <entry file="file://$PROJECT_DIR$/Plots/VennTriplicates/VennFilterpaper65f15.svg" />
+    <entry file="file://$PROJECT_DIR$/generate_rates_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3mer_analysis/3mer_analysis_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1684">
+          <caret line="35" column="115" lean-forward="false" selection-start-line="35" selection-start-column="115" selection-end-line="35" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venn_diagrams_triplicates.py" />
+    <entry file="file://$PROJECT_DIR$/pdf_to_csv_coverage_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giant_generate_zoomed_in_rates_subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="570">
+            <caret line="79" column="98" lean-forward="false" selection-start-line="79" selection-start-column="98" selection-end-line="79" selection-end-column="98" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3mer_analysis/missing_strands_to_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3mer_analysis/missing_strands_to_pickle_tp0_normal.py" />
+    <entry file="file://$PROJECT_DIR$/scratch.py" />
+    <entry file="file://$PROJECT_DIR$/sequence_degradation_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis_csv.py" />
+    <entry file="file://$PROJECT_DIR$/missing_strands_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="135" column="73" lean-forward="false" selection-start-line="135" selection-start-column="73" selection-end-line="135" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
