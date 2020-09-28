@@ -213,12 +213,23 @@ def all_half_life_plots_together(list_of_treatment_files):
 
 
     # exceptions (data from other papers)
-    ax.scatter(13, 800*(158.0/150), marker="^", c='#1E90FF', edgecolor= 'k', s=170, zorder=10, label="Moa Bone")  # DNA in moa bone (Allentoft et al. 2012)
-    ax.scatter(25, 100*(158.0/150), marker="s", c="#1E90FF", edgecolor= 'k', s=160, zorder=10, label="Calcium Chloride")  # DNA over CaCl2 (Bonnet et al. 2010)
-    ax.scatter(20, 80*(158.0/150), marker="X", c="#1E90FF", edgecolor= 'k', s=170, zorder=10, label="Silica")  # DNA in silica (Grass et al. 2010)
-    ax.scatter(20, 0.8*(158.0/150), marker="p", c="#1E90FF", edgecolor= 'k', s=210, zorder=10, label="In Solution")  # DNA in solution (Lindahl & Nyberg 1972)
+    DNAshell = 2.02 * 10 ** (-15)
+    halflife_DNAshell = np.log(2) / DNAshell
+    halflife_DNAshell = convert_sec_to_yrs(halflife_DNAshell)
+    halflife_DNAshell = halflife_DNAshell / 150.0
+    ax.scatter(25, halflife_DNAshell, marker='o', c="#1E90FF", s=160, zorder=10, label="DNAshell")  # encapsulated DNA from white blood cells (Fabre et al. 2017)
+
+    ax.scatter(13, 800*(158.0/150), marker="^", c='#1E90FF', s=170, zorder=10, label="Moa Bone")  # DNA in moa bone (Allentoft et al. 2012)
+    ax.scatter(25, 100*(158.0/150), marker="s", c="#1E90FF", s=160, zorder=10, label="Calcium Chloride")  # DNA over CaCl2 (Bonnet et al. 2010)
+    ax.scatter(20, 80*(158.0/150), marker="X", c="#1E90FF",  s=170, zorder=10, label="Silica")  # DNA in silica (Grass et al. 2010)
+    ax.scatter(20, 0.8*(158.0/150), marker="p", c="#1E90FF", s=210, zorder=10, label="In Solution")  # DNA in solution (Lindahl & Nyberg 1972)
+
 
     # sets up rest of plot
+    ax.set_xticks([-20, 0, 20, 40, 60, 80])
+    ax.set_xticklabels(["-20", "0", "20", "40", "60", "80"])
+    ax.tick_params(axis='x', which="major", length=5)
+
     ax.set_yscale('log')
     ax.set_ylabel('Half-Life (Years)', fontsize='x-large')
     ax.set_xlabel('Temperature (C)', fontsize='x-large')
@@ -240,10 +251,6 @@ def all_half_life_plots_together(list_of_treatment_files):
 def convert_sec_to_yrs(k):
     return k/(60*60*24*365)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> cc4430cdb87119b7ee16bb739c916148980573ca
 # roughly ordered via half-life projection
 list_of_data_files = ['Dry.csv', 'Trehalose.csv', 'DNAStable.csv', 'Beads_DNAStable.csv',
                       'PCR_DNAStable.csv', 'Sugars.csv','Filterpaper.csv','GenTegra.csv',
