@@ -191,11 +191,6 @@ def all_half_life_plots_together(list_of_treatment_files):
 
         k0 *= scale
 
-        print
-        print treatment
-        print "k0:", k0
-        print "scale:", scale
-
         k_extra = extrap_Arrhenius(k0, slope, temp_extra)  # k0 = A, used to call global var A
 
         half_lives = extrap_Arrhenius(k0, slope, temp_k)
@@ -219,7 +214,7 @@ def all_half_life_plots_together(list_of_treatment_files):
 
     # exceptions (data from other papers)
     ax.scatter(13, 800*(158.0/150), marker="^", c='#1E90FF', edgecolor= 'k', s=170, zorder=10, label="Moa Bone")  # DNA in moa bone (Allentoft et al. 2012)
-    ax.scatter(20, 100*(158.0/150), marker="s", c="#1E90FF", edgecolor= 'k', s=160, zorder=10, label="Calcium Chloride")  # DNA over CaCl2 (Bonnet et al. 2010)
+    ax.scatter(25, 100*(158.0/150), marker="s", c="#1E90FF", edgecolor= 'k', s=160, zorder=10, label="Calcium Chloride")  # DNA over CaCl2 (Bonnet et al. 2010)
     ax.scatter(20, 80*(158.0/150), marker="X", c="#1E90FF", edgecolor= 'k', s=170, zorder=10, label="Silica")  # DNA in silica (Grass et al. 2010)
     ax.scatter(20, 0.8*(158.0/150), marker="p", c="#1E90FF", edgecolor= 'k', s=210, zorder=10, label="In Solution")  # DNA in solution (Lindahl & Nyberg 1972)
 
@@ -236,17 +231,6 @@ def all_half_life_plots_together(list_of_treatment_files):
 
     # plt.show()  # NOTE- you cannot save an image when showing, you can either do one or the other
     plt.tight_layout()
-    #plt.savefig('All_Treatment_Half_Lives_ALL_DATA_scaled.png', dpi=1000)
-    # fig.savefig('skinny_extra_Treatments_Half_Lives_ALL_DATA_scaled_per_seq.png', bbox_extra_artists=(lgd,),
-    #             bbox_inches='tight', dpi=1000)
-
-    # fig.savefig('skinny_extra_Treatments_Half_Lives_ETH_DATA_scaled_per_seq_no_extras.png', bbox_extra_artists=(lgd,),
-    #             bbox_inches='tight', dpi=1000)
-
-    #fig.savefig('skinny_All_Treatment_Half_Lives_ALL_DATA_scaled.png', dpi=1000)
-
-    # fig.savefig('skinny_ETH_vs_UW_Half_Lives_per_nt.png', bbox_extra_artists=(lgd,),
-    #             bbox_inches='tight', dpi=1000)
 
     fig.savefig('skinny_UW_Half_Lives_per_nt.png', bbox_extra_artists=(lgd,),
                 bbox_inches='tight', dpi=1000)
@@ -255,17 +239,6 @@ def all_half_life_plots_together(list_of_treatment_files):
 
 def convert_sec_to_yrs(k):
     return k/(60*60*24*365)
-
-
-#time = [0, 191700, 340200, 513000, 1208700, 2417400]
-#temp = [65, 75, 85]
-
-# list_of_data_files = ['Beads_DNAStable.csv', 'DNAStable.csv',
-#                       'Dry.csv', 'Sugars.csv','GenTegra.csv',
-#                       'Imagene.csv', 'PCR_DNAStable.csv',
-#                       'Filterpaper.csv', 'Trehalose.csv',
-#                       'ETH_DNA_pure.csv', 'ETH_DNAStable.csv',
-#                       'ETH_Magnetic_NP.csv','ETH_Trehalose.csv']
 
 # roughly ordered via half-life projection
 list_of_data_files = ['Dry.csv', 'Trehalose.csv', 'DNAStable.csv', 'Beads_DNAStable.csv',
