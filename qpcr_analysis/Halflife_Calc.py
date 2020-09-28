@@ -240,6 +240,10 @@ def all_half_life_plots_together(list_of_treatment_files):
 def convert_sec_to_yrs(k):
     return k/(60*60*24*365)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cc4430cdb87119b7ee16bb739c916148980573ca
 # roughly ordered via half-life projection
 list_of_data_files = ['Dry.csv', 'Trehalose.csv', 'DNAStable.csv', 'Beads_DNAStable.csv',
                       'PCR_DNAStable.csv', 'Sugars.csv','Filterpaper.csv','GenTegra.csv',
